@@ -41,7 +41,7 @@ Note: Replace ros2_ws with your workspace name.
 8. or you can auto source your workspace  & apply the changes imemdiately with this command:
    ```bash
    echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
-   ~/.bashrc
+   source ~/.bashrc
 
 Note: Replace ros2_ws with your workspace name.
 
