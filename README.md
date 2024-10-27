@@ -34,6 +34,7 @@ Getting Started
    source install/local_setup.bash
 
 7. Upload the microros sketch to ESP32 using Arduino IDE.
-8. Launch the MicroROS robot:
+8. Connect joystick controller to the robot pc.
+9. Launch the MicroROS robot:
    ```bash
    ros2 launch MicroROS var_launch.py
