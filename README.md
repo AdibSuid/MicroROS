@@ -11,8 +11,10 @@ MicroROS package to manually control two-wheeled differential drive robot using 
 
 2. Or go to your workspace (if you already have one):
    ```bash
-   cd <workspacename>
+   cd ros2_ws
    cd src
+   
+Note: replace ros2_ws with your workspace name.
    
 3. Clone this repository to your ROS2 workspace:
    ```bash
