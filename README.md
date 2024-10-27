@@ -35,15 +35,16 @@ Note: replace ros2_ws with your workspace name.
    colcon build --symlink-install
    
 You have to source your workspace **everytime** you want to launch the package by using this command:
-```bash
-source install/local_setup.bash
+   ```bash
+   source install/local_setup.bash
 
 or you can auto source your workspace with this command:
-echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+   `bash
+   echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 
-&apply the changes immediately by run this command:
-```bash
-~/.bashrc
+& apply the changes immediately by run this command:
+   ```bash
+   ~/.bashrc
 
 7. Upload the microros sketch to ESP32 using Arduino IDE. The file name is var_esp32_microros.ino
 8. Connect joystick controller to the robot pc.
