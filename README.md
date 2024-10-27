@@ -1,7 +1,7 @@
 # MicroROS
 MicroROS package to manually control two wheeled differential drive robot using teleop with Ubuntu 22.04 & ROS2 Humble
 
-Getting Started
+## Getting Started
 1. Create & go to your new workspace (if you don't have one):
    ```bash
    mkdir ros2_ws
@@ -38,3 +38,11 @@ Getting Started
 9. Launch the MicroROS robot:
    ```bash
    ros2 launch MicroROS var_launch.py
+
+## Troubleshooting Guide
+1. If the microros agent doesn't connect, unplug & plug the ESP32 back or press boot button. You can check if the microros agent have successfully connected or not by open a new terminal & run
+   ```bash
+   ros2 topic list
+If the microros agent successfully connected, it should display like this in the terminal:
+   ```bash
+   
