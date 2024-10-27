@@ -9,27 +9,31 @@ Getting Started
    mkdir src
    cd src
 
-   or
-
-3. Go to your workspace (if you already have one):
+2. Or go to your workspace (if you already have one):
+   ```bash
    cd <yourworkspacename>
    cd src
    
-4. Clone this repository to your ROS2 workspace:
+3. Clone this repository to your ROS2 workspace:
+   ```bash
    git clone https://github.com/AdibSuid/MicroROS.git
   
-5. Clone teleop_twist_joy repository to your ROS2 workspace:
+4. Clone teleop_twist_joy repository to your ROS2 workspace:
+   ```bash
    git clone https://github.com/ros2/teleop_twist_joy.git -b humble
 
-6. Clone micro-ROS-Agent repository to your ROS2 workspace:
+5. Clone micro-ROS-Agent repository to your ROS2 workspace:
+   ```bash
    git clone https://github.com/micro-ROS/micro-ROS-Agent.git -b humble
 
-7. Build the ROS2 package and install dependencies:
+6. Build the ROS2 package and install dependencies:
+   ```bash
    cd  ..
    rosdep install --from-paths src --ignore-src -r -y
    colcon build --symlink-install
    source install/local_setup.bash
 
-8. Upload the microros sketch to ESP32 using Arduino IDE.
-9. Launch the MicroROS robot:
+7. Upload the microros sketch to ESP32 using Arduino IDE.
+8. Launch the MicroROS robot:
+   ```bash
    ros2 launch MicroROS var_launch.py
