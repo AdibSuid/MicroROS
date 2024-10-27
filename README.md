@@ -38,17 +38,14 @@ Note: Replace ros2_ws with your workspace name.
    ```bash
    source install/local_setup.bash
 
-8. or you can auto source your workspace with this command:
+8. or you can auto source your workspace  & apply the changes imemdiately with this command:
    ```bash
    echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
-
-9. & apply the changes immediately by run this command:
-   ```bash
    ~/.bashrc
 
-7. Upload the microros sketch to ESP32 using Arduino IDE. The file name is var_esp32_microros.ino
-8. Connect joystick controller to the robot pc.
-9. Launch the MicroROS robot:
+9. Upload the microros sketch to ESP32 using Arduino IDE. The file name is var_esp32_microros.ino
+10. Connect joystick controller to the robot pc.
+11. Launch the MicroROS robot:
    ```bash
    ros2 launch MicroROS var_launch.py
 
