@@ -38,11 +38,11 @@ Note: You have to source your workspace **everytime** you want to launch the pac
    ```bash
    source install/local_setup.bash
 
-or you can auto source your workspace with this command:
+7. or you can auto source your workspace with this command:
    ```bash
    echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 
-& apply the changes immediately by run this command:
+8. & apply the changes immediately by run this command:
    ```bash
    ~/.bashrc
 
