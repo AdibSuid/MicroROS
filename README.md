@@ -34,15 +34,15 @@ Note: Replace ros2_ws with your workspace name.
    rosdep install --from-paths src --ignore-src -r -y
    colcon build --symlink-install
 
-Note: You have to source your workspace **everytime** you want to launch the package by using this command:
+7. You have to source your workspace **everytime** you want to launch the package by using this command:
    ```bash
    source install/local_setup.bash
 
-7. or you can auto source your workspace with this command:
+8. or you can auto source your workspace with this command:
    ```bash
    echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 
-8. & apply the changes immediately by run this command:
+9. & apply the changes immediately by run this command:
    ```bash
    ~/.bashrc
 
