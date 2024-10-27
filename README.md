@@ -33,7 +33,7 @@ MicroROS package to manually control two wheeled differential drive robot using 
    colcon build --symlink-install
    source install/local_setup.bash
 
-7. Upload the microros sketch to ESP32 using Arduino IDE.
+7. Upload the microros sketch to ESP32 using Arduino IDE. The file name is var_esp32_microros.ino
 8. Connect joystick controller to the robot pc.
 9. Launch the MicroROS robot:
    ```bash
@@ -43,6 +43,6 @@ MicroROS package to manually control two wheeled differential drive robot using 
 1. If the microros agent doesn't connect, unplug & plug the ESP32 back or press boot button. You can check if the microros agent have successfully connected or not by open a new terminal & run
    ```bash
    ros2 topic list
-If the microros agent successfully connected, it should display like this in the terminal:
+  If the microros agent successfully connected, it should display like this in the terminal:
    ```bash
    
