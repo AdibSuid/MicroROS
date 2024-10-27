@@ -43,6 +43,8 @@ Note: Replace ros2_ws with your workspace name.
    echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
    ~/.bashrc
 
+Note: Replace ros2_ws with your workspace name.
+
 9. Upload the microros sketch to ESP32 using Arduino IDE. The file name is var_esp32_microros.ino
 10. Connect joystick controller to the robot pc.
 11. Launch the MicroROS robot:
