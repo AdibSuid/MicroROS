@@ -49,7 +49,7 @@ Note: Replace ros2_ws with your workspace name.
 10. Connect joystick controller to the robot pc.
 11. Launch the MicroROS robot:
    ```bash
-   ros2 launch MicroROS var_launch.py
+   ros2 launch var var_launch.py
    ```
 ## Troubleshooting Guide
 1. If the microros agent doesn't connect, unplug & plug the ESP32 back or press boot button. You can check if the    microros agent have successfully connected or not by open a new terminal & run
