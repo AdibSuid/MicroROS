@@ -1,0 +1,6 @@
+Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/microros_ws/src/MicroROS -DCMAKE_INSTALL_PREFIX=/home/humble/microros_ws/src/MicroROS/install/var
+Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/microros_ws/src/MicroROS -DCMAKE_INSTALL_PREFIX=/home/humble/microros_ws/src/MicroROS/install/var
+Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/microros_ws/src/MicroROS/build/var -- -j16 -l16
+Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/microros_ws/src/MicroROS/build/var -- -j16 -l16
+Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/microros_ws/src/MicroROS/build/var
+Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/microros_ws/src/MicroROS/build/var

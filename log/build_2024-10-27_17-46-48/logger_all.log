@@ -1,0 +1,107 @@
+[0.076s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.076s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b4db782e8f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b4db793ae90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b4db793ae90>>, mixin_verb=('build',))
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.195s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/humble/microros_ws/src/MicroROS'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'var'
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.226s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/humble/microros_ws/install
+[0.226s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/humble/ros2_ws/install
+[0.227s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'var' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'var' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/humble/microros_ws/src/MicroROS/build/var', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/humble/microros_ws/src/MicroROS/install/var', 'merge_install': False, 'path': '/home/humble/microros_ws/src/MicroROS', 'symlink_install': False, 'test_result_base': None}
+[0.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/humble/microros_ws/src/MicroROS' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/humble/microros_ws/src/MicroROS'
+[0.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/microros_ws/src/MicroROS -DCMAKE_INSTALL_PREFIX=/home/humble/microros_ws/src/MicroROS/install/var
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/microros_ws/src/MicroROS -DCMAKE_INSTALL_PREFIX=/home/humble/microros_ws/src/MicroROS/install/var
+[1.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/microros_ws/src/MicroROS/build/var -- -j16 -l16
+[1.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/microros_ws/src/MicroROS/build/var -- -j16 -l16
+[1.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/microros_ws/src/MicroROS/build/var
+[1.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(var)
+[1.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/microros_ws/src/MicroROS/build/var
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var' for CMake module files
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var' for CMake config files
+[1.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('var', 'cmake_prefix_path')
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humble/microros_ws/src/MicroROS/install/var/share/var/hook/cmake_prefix_path.ps1'
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/humble/microros_ws/src/MicroROS/install/var/share/var/hook/cmake_prefix_path.dsv'
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humble/microros_ws/src/MicroROS/install/var/share/var/hook/cmake_prefix_path.sh'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/lib'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/bin'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/lib/pkgconfig/var.pc'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/lib/python3.10/site-packages'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/bin'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.ps1'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.dsv'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.sh'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.bash'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.zsh'
+[1.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/humble/microros_ws/src/MicroROS/install/var/share/colcon-core/packages/var)
+[1.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(var)
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var' for CMake module files
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var' for CMake config files
+[1.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('var', 'cmake_prefix_path')
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humble/microros_ws/src/MicroROS/install/var/share/var/hook/cmake_prefix_path.ps1'
+[1.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/humble/microros_ws/src/MicroROS/install/var/share/var/hook/cmake_prefix_path.dsv'
+[1.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humble/microros_ws/src/MicroROS/install/var/share/var/hook/cmake_prefix_path.sh'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/lib'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/bin'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/lib/pkgconfig/var.pc'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/lib/python3.10/site-packages'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/humble/microros_ws/src/MicroROS/install/var/bin'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.sh'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.bash'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/humble/microros_ws/src/MicroROS/install/var/share/var/package.zsh'
+[1.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/humble/microros_ws/src/MicroROS/install/var/share/colcon-core/packages/var)
+[1.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.667s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.671s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.671s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.680s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humble/microros_ws/src/MicroROS/install/local_setup.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/humble/microros_ws/src/MicroROS/install/_local_setup_util_ps1.py'
+[1.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humble/microros_ws/src/MicroROS/install/setup.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humble/microros_ws/src/MicroROS/install/local_setup.sh'
+[1.683s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/humble/microros_ws/src/MicroROS/install/_local_setup_util_sh.py'
+[1.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humble/microros_ws/src/MicroROS/install/setup.sh'
+[1.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humble/microros_ws/src/MicroROS/install/local_setup.bash'
+[1.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humble/microros_ws/src/MicroROS/install/setup.bash'
+[1.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humble/microros_ws/src/MicroROS/install/local_setup.zsh'
+[1.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humble/microros_ws/src/MicroROS/install/setup.zsh'

@@ -1,0 +1,98 @@
+[0.009s] Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/microros_ws/src/MicroROS -DCMAKE_INSTALL_PREFIX=/home/humble/microros_ws/src/MicroROS/install/var
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.171s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.359s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.428s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.463s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.467s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.530s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.533s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.610s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.633s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.669s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.677s] -- Looking for pthread.h
+[0.737s] -- Looking for pthread.h - found
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.797s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.798s] -- Found Threads: TRUE  
+[0.836s] -- Found micro_ros_agent: 3.0.6 (/home/humble/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake)
+[0.856s] -- Found teleop_twist_joy: 2.4.7 (/home/humble/microros_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake)
+[0.921s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.983s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.994s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.994s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/humble/microros_ws/src/MicroROS/include>
+[0.994s] -- Configured cppcheck exclude dirs and/or files: 
+[1.004s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.004s] -- Configured cpplint exclude dirs and/or files: 
+[1.006s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.009s] -- Added test 'lint_cmake' to check CMake code style
+[1.011s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.021s] -- Added test 'uncrustify' to check C / C++ code style
+[1.021s] -- Configured uncrustify additional arguments: 
+[1.023s] -- Added test 'xmllint' to check XML markup files
+[1.024s] -- Configuring done
+[1.030s] -- Generating done
+[1.031s] -- Build files have been written to: /home/humble/microros_ws/src/MicroROS/build/var
+[1.039s] Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/humble/microros_ws/src/MicroROS -DCMAKE_INSTALL_PREFIX=/home/humble/microros_ws/src/MicroROS/install/var
+[1.041s] Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/microros_ws/src/MicroROS/build/var -- -j16 -l16
+[1.083s] [ 50%] [32mBuilding CXX object CMakeFiles/var_info.dir/src/var_info.cpp.o[0m
+[1.090s] [ 50%] Built target ament_cmake_python_copy_var
+[1.107s] [100%] [32m[1mLinking CXX executable var_info[0m
+[1.146s] [100%] Built target var_info
+[1.268s] running egg_info
+[1.268s] creating var.egg-info
+[1.268s] writing var.egg-info/PKG-INFO
+[1.268s] writing dependency_links to var.egg-info/dependency_links.txt
+[1.268s] writing top-level names to var.egg-info/top_level.txt
+[1.268s] writing manifest file 'var.egg-info/SOURCES.txt'
+[1.270s] reading manifest file 'var.egg-info/SOURCES.txt'
+[1.270s] writing manifest file 'var.egg-info/SOURCES.txt'
+[1.289s] [100%] Built target ament_cmake_python_build_var_egg
+[1.299s] Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/humble/microros_ws/src/MicroROS/build/var -- -j16 -l16
+[1.333s] Invoking command in '/home/humble/microros_ws/src/MicroROS/build/var': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/microros_ws/src/MicroROS/build/var
+[1.339s] -- Install configuration: ""
+[1.339s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/lib/var/var_info
+[1.340s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/environment/pythonpath.sh
+[1.340s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/environment/pythonpath.dsv
+[1.340s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var-0.0.0-py3.10.egg-info
+[1.340s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var-0.0.0-py3.10.egg-info/top_level.txt
+[1.340s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.340s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.340s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var-0.0.0-py3.10.egg-info/PKG-INFO
+[1.341s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var
+[1.341s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var/__init__.py
+[1.365s] Listing '/home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var'...
+[1.365s] Compiling '/home/humble/microros_ws/src/MicroROS/install/var/local/lib/python3.10/dist-packages/var/__init__.py'...
+[1.368s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/lib/var/var_joy.py
+[1.368s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var//launch
+[1.368s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var//launch/var_launch.py
+[1.368s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/ament_index/resource_index/package_run_dependencies/var
+[1.368s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/ament_index/resource_index/parent_prefix_path/var
+[1.369s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/environment/ament_prefix_path.sh
+[1.369s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/environment/ament_prefix_path.dsv
+[1.369s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/environment/path.sh
+[1.369s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/environment/path.dsv
+[1.369s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/local_setup.bash
+[1.369s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/local_setup.sh
+[1.369s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/local_setup.zsh
+[1.370s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/local_setup.dsv
+[1.370s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/package.dsv
+[1.370s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/ament_index/resource_index/packages/var
+[1.370s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/cmake/varConfig.cmake
+[1.370s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/cmake/varConfig-version.cmake
+[1.370s] -- Installing: /home/humble/microros_ws/src/MicroROS/install/var/share/var/package.xml
+[1.372s] Invoked command in '/home/humble/microros_ws/src/MicroROS/build/var' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/humble/microros_ws/src/MicroROS/build/var

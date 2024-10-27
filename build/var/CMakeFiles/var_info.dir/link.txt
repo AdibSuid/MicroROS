@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/var_info.dir/src/var_info.cpp.o -o var_info 
