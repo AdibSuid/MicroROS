@@ -14,7 +14,7 @@ Getting Started
    cd <workspacename>
    cd src
 
-Note: replace <workspacename> with your workspace name
+Note: replace "<workspacename>" with your workspace name
    
 3. Clone this repository to your ROS2 workspace:
    ```bash
