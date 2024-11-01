@@ -51,7 +51,7 @@ Note: Replace ros2_ws with your workspace name.
 11. Click on " <> Code " button on top right, then click download zip.
 12. Open Arduino IDE, go to Sketch >> Include Library >> Add .ZIP Library..., find the downloaded library file location & click "open". Compile & Upload the code into ESP32 & wait for the status to turn into "done uploading".
 13. Connect joystick controller to the robot pc.
-14. Launch the MicroROS robot:
+14. Launch the MicroROS robot package:
    ```bash
    ros2 launch var var_launch.py
    ```
