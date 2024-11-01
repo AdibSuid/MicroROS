@@ -48,8 +48,10 @@ Note: Replace ros2_ws with your workspace name.
 9. Upload the microros sketch to ESP32 using Arduino IDE. The file name is var_esp32_microros.ino
 10. Before compile & upload the code, make sure to download & include micro_ros_arduino library file. The library file can be downloaded from link below (please choose correct branch which is humble):
     https://github.com/micro-ROS/micro_ros_arduino/tree/humble
-11. Connect joystick controller to the robot pc.
-12. Launch the MicroROS robot:
+11. Click on " <> Code " button on top right, then click download zip.
+12. Open Arduino IDE, go to Sketch >> Include Library >> Add .ZIP Library..., find the downloaded library file location & click "open". Compile & Upload the code into ESP32 & wait for the status to turn into "done uploading".
+13. Connect joystick controller to the robot pc.
+14. Launch the MicroROS robot:
    ```bash
    ros2 launch var var_launch.py
    ```
