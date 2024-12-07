@@ -31,6 +31,8 @@ Note: Replace ros2_ws with your workspace name.
 6. Build the ROS2 package and install dependencies:
    ```bash
    cd  ..
+   sudo rosdep init
+   rosdep update
    rosdep install --from-paths src --ignore-src -r -y
    colcon build --symlink-install
 
